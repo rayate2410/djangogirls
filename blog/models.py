@@ -10,4 +10,4 @@ class Blog(models.Model):
 	publish_date = models.DateTimeField(blank=True, null=True)
 
 	def __str__(self):
-		return self.title
+		return self.title	
